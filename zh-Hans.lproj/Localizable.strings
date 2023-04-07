@@ -65,8 +65,8 @@
 "device.role.clientmute"="静默模式 - 与标准模式类似，App 可以连接到电台进行收发操作，但不会转发 Mesh 网络中其他节点的消息。";
 "device.role.router"="纯中继模式 -  自动转发 Mesh 网络中其他节点的消息，中继模式下屏幕会熄灭，Wi-Fi 和蓝牙将会进入睡眠模式，App 将无法连接到电台进行收发操作。";
 "device.role.routerclient"="中继模式 - 优先转发 Mesh 网络中其他节点的消息，App 也可以连接到电台进行收发操作。";
-"device.role.repeater"="Repeater - Mesh packets will prefer to be routed over this node. This role eliminates unnecessary overhead such as NodeInfo, DeviceTelemetry, and any other mesh packet, resulting in the device not appearing as part of the network.  Please see Rebroadcast Mode for additional settings specific to this role.";
-"device.role.tracker"="Tracker - For use with devices intended as a GPS tracker. Position packets sent from this device will be higher priority, with position broadcasting every two minutes. Smart Position Broadcast will default to off.";
+"device.role.repeater"="Repeater - mesh网络数据包将倾向于通过此节点路由。这种角色可以消除不必要的开销，例如 NodeInfo、DeviceTelemetry 和任何其他网状网络数据包，因此设备看起来不会成为网络的一部分。请参阅 Rebroadcast Mode 了解与此角色特定的其他设置。";
+"device.role.tracker"="Tracker - 用于作为GPS跟踪器使用的设备。从该设备发送的位置数据包将具有更高的优先级，每两分钟广播一次位置信息。智能位置广播默认关闭。";
 "direct.messages"="直接收到的消息";
 "dismiss.keyboard"="隐藏键盘";
 "display"="屏幕（电台屏幕）";
